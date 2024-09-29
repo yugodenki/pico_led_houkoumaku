@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.12)
 
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
-set(PROJECT_NAME pico_houkoumaku)
+set(PROJECT_NAME pico_led_houkoumaku)
 
 # Pull in SDK
 include(src/pico_sdk_import.cmake)
