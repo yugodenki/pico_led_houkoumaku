@@ -1,6 +1,5 @@
 # Run image converter
 find_package(Python3 COMPONENTS Interpreter REQUIRED)
-file(GLOB IMAGE_FILES ${CMAKE_SOURCE_DIR}/images/*)
 # add_custom_command(
 add_custom_target(
   RunAlways ALL
@@ -24,3 +23,5 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
 
 pico_enable_stdio_usb(${PROJECT_NAME} 0)
 pico_enable_stdio_uart(${PROJECT_NAME} 1)
+
+pico_add_extra_outputs(${PROJECT_NAME})
