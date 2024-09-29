@@ -1,4 +1,9 @@
 # Raspberry Pi Picoで光らせるLED方向幕
+<a href="https://www.youtube.com/watch?v=zQslHO0UPBs">![youtube_uchimawari_video_thumbnail](uchimawari_video_thumb.png)</a>
+
+動画内の画像はこちらのリポジトリのものを使用しています:
+
+https://github.com/yugodenki/e235_yamanote_houkoumaku_image_generator
 
 ## ハードウェア構成
 
@@ -10,6 +15,7 @@
 
 
 ### 配線
+
 この配線は一例です。LEDマトリクスによってHUB75のpinoutが違う場合もあるようなので、必ず配線の際はデータシートを確認してください！
 - HUB75 R1   <=> GPIO2
 - HUB75 G1   <=> GPIO3
@@ -25,6 +31,7 @@
 - HUB75 LAT  <=> GPIO14
 - HUB75 OE   <=> GPIO15
 - 5V 電源入力 <=> VSYS
+
 ![pico_to_hub75](assets/hub75_pico_bb.png)
 
 
