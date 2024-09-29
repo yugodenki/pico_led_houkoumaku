@@ -31,6 +31,7 @@
 #define PIN_LATCH 14
 #define PIN_OE    15
 
+#define BRIGHTNESS 50
 #define FRAME_DURATION 3000000  // In microseconds
 
 void draw_frame(uint32_t *frame, PIO pio, uint sm_data, uint sm_row, uint data_prog_offs) {
@@ -49,7 +50,7 @@ void draw_frame(uint32_t *frame, PIO pio, uint sm_data, uint sm_row, uint data_p
       // Check previous OE pulse is finished
       hub75_wait_tx_stall(pio, sm_row);
       // Latch row data
-      pio_sm_put_blocking(pio, sm_row, j | (50u * (1u << bit) << 5));
+      pio_sm_put_blocking(pio, sm_row, j | (BRIGHTNESS * (1u << bit) << 5));
     }
   }
 }
