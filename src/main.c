@@ -25,7 +25,6 @@
 // PIN_B 9
 // PIN_C 10
 // PIN_D 11
-// PIN_E 12
 
 #define PIN_CLK   13
 #define PIN_LATCH 14
