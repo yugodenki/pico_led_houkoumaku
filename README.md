@@ -1,5 +1,5 @@
 # Raspberry Pi Picoで光らせるLED方向幕
-<a href="https://www.youtube.com/watch?v=zQslHO0UPBs">![youtube_uchimawari_video_thumbnail](uchimawari_video_thumb.png)</a>
+<a href="https://www.youtube.com/watch?v=zQslHO0UPBs">![youtube_uchimawari_video_thumbnail](assets/uchimawari_video_thumb.png)</a>
 
 動画内の画像はこちらのリポジトリのものを使用しています:
 
