@@ -1,0 +1,12 @@
+.idea
+.vscode
+_deps
+cmake-*
+build
+build_*
+.DS_Store
+*.pdf
+venv
+
+# Images
+images
